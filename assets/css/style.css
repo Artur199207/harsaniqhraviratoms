@@ -84,3 +84,53 @@ flex-direction: column;
     font-family: TimesNewRoman, Vosketar;
     font-weight: 700;
 }
+.content-calndar{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.content-calndar h1{
+    font-size: 58px;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    grid-template-rows: repeat(6, 60px);
+    gap: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.5s, background 0.5s;
+}
+
+.day:hover {
+    transform: rotate(360deg);
+    background: #555;
+}
+
+.red {
+    background: red;
+    color: white;
+    animation: vortex 1s infinite alternate;
+}
+
+@keyframes vortex {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    100% {
+        transform: scale(1.2) rotate(10deg);
+    }
+}
