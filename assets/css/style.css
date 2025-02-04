@@ -97,9 +97,10 @@ flex-direction: column;
 }
 
 .calendar {
-    display: grid;
-    grid-template-columns: repeat(7, 60px);
-    grid-template-rows: repeat(6, 60px);
+    display: grid
+;
+    grid-template-columns: repeat(6, 55px);
+    grid-template-rows: repeat(6, 50px);
     gap: 5px;
     text-align: center;
     justify-content: center;
