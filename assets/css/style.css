@@ -134,3 +134,14 @@ flex-direction: column;
         transform: scale(1.2) rotate(10deg);
     }
 }
+.contentName-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 5px;
+}
+.contentName-title span{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
