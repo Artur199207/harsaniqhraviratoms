@@ -62,7 +62,7 @@ flex-direction: column;
     font-size: 78px;
     font-weight: 400;
     font-family: TimesNewRoman, Vosketar;
-    color: white;
+    color: black;
 }
 .staticcontent{
     align-self: center;
@@ -100,7 +100,7 @@ flex-direction: column;
     display: grid
 ;
     grid-template-columns: repeat(6, 55px);
-    grid-template-rows: repeat(6, 50px);
+    grid-template-rows: repeat(3, 50px);
     gap: 5px;
     text-align: center;
     justify-content: center;
@@ -174,8 +174,9 @@ flex-direction: column;
 }
 .contentBlock span{
     font-size: 78px;
-    color: white;
+    color: black;
    font-weight: 400;
+   font-family: TimesNewRoman, Vosketar;
 }
 .content-program{
     display: flex;
@@ -272,25 +273,32 @@ flex-direction: column;
     top: 70%;
 }
 .content-endText span{
-    font-size: 22px;
+    font-size: 38px;
     color: black;
-    font-weight: 400;
+    font-weight: 900;
     text-align: center;
 }
 
 .typing-effect {
-    display: inline-block;
+    /* display: inline-block;
     overflow: hidden;
-    white-space: nowrap;
-    animation: typing 3s steps(30, end) forwards;
-    border-right: 2px solid black; /* Կուրսորի էֆեկտ */
+    white-space: nowrap; */
+    /* animation: typing 3s steps(30, end) forwards;
+    border-right: 2px solid black; Կուրսորի էֆեկտ */
+    /* font-size: 58px;
+    font-weight: 800; */
+    font-family: TimesNewRoman, Vosketar;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@keyframes typing {
+/* @keyframes typing {
     from {
         width: 0;
     }
     to {
         width: 100%;
     }
-}
+} */
